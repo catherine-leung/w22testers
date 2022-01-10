@@ -68,7 +68,7 @@ int main(int argc, char* argv[]){
 	char* answers[MAX];
 	char* correct[MAX];
 	int numAnswers=readLines("lab0c.txt",answers,MAX);
-	int numCorrect=readLines("correct.txt",correct,MAX);
+	int numCorrect=readLines("lab0correct.txt",correct,MAX);
 	int numSame=0;
 	numAnswers=clearBlankLines(answers,numAnswers);
 	removeBlanks(answers,numAnswers);
